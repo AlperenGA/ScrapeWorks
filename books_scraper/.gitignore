@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Scrapy output files
+*.csv
+*.xlsx
+*.json
+
+# macOS
+.DS_Store
+
+# Logs and databases
+*.log
+
+# Others
+*.egg-info/
+dist/
+build/
