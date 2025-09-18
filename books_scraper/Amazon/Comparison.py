@@ -5,7 +5,7 @@ from tabulate import tabulate
 # CSV dosyalarını yükle
 # -------------------------------
 old_csv = "amazon_tablets.csv"         # Eski sürüm CSV
-new_csv = "amazon_tablets_full.csv"    # ACP tabanlı yeni sürüm CSV
+new_csv = "amazon_tablets_page1_2_full.csv"    # FALLBACK + Payload tabanlı yeni sürüm CSV
 
 df_old = pd.read_csv(old_csv)
 df_new = pd.read_csv(new_csv)
