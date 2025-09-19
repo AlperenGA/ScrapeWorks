@@ -114,25 +114,19 @@ conda activate ScrapeWorks
 
 # Run the project
 python main.py
-
-Elbette, bu içerikleri SCRAPEWORKS README dosyasının en gelişmiş versiyonuna entegre ettim. İşte güncellenmiş ve daha kapsamlı README metni:
-
-Markdown
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AlperenGA/ScrapeWorks/main/assets/logo.png" alt="ScrapeWorks Logo" width="200"/>
-</p>
-
+```
+---
 
 ### ✅ Testing
 ScrapeWorks uses the Pytest framework for testing. You can run the test suite with the following command:
 
-Bash
+```Bash
 # Activate the conda environment
 conda activate ScrapeWorks
 
 # Run the tests
 pytest
-
+```
 ---
 
 ###  🤝 Contributing
@@ -148,10 +142,11 @@ Push to the branch: git push origin feature/your-feature-name.
 
 Open a Pull Request.
 
-###📄 License
+### 📄 License
 This project is no licensed.
 
 <p align="right">
 <a href="#-scrapeworks">⬆ Return to Top</a>
 </p>
+
 
